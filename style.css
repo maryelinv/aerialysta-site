@@ -295,8 +295,12 @@
 }
 
 @media screen and (max-width: 576px) {
-  .coded-hero h1 {
+  .coded-main-title {
     font-size: 50px;
+  }
+
+  .sub-text {
+    font-size: 30px;
   }
 }
 
@@ -371,12 +375,21 @@
     max-width: 120px;
     font-size: 20px;
   }
+
+  .aerialysta-logo {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .coded-container {
   display: block;
   margin: 0 auto;
   max-width: 1400px;
+  width: 100%;
+}
+
+.coded-quick-links {
   width: 100%;
 }
 
@@ -406,7 +419,7 @@
 
 @media screen and (max-width: 768px) {
   .coded-container {
-    max-width: 765px;
+    max-width: 624px;
   }
 }
 

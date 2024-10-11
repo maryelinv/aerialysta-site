@@ -410,12 +410,6 @@
   }
 }
 
-@media screen and (max-width: 576px) {
-  .coded-container {
-    padding: 0px 50px;
-  }
-}
-
 body {
   margin: 0;
   /* scroll bar */
